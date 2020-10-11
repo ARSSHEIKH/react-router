@@ -1,0 +1,101 @@
+ul > li{
+  display: inline;
+  padding: 15px;
+}
+ul > li > a{
+  color: #fff;
+  font-weight: bold;
+}
+.lnkLogin{
+  float: right;
+}
+.ulHeaderLinks{
+  background-color: rgb(180, 177, 177);
+
+}
+.SignUpform {
+  text-align: center;
+}
+#lblAccountError{
+  color: transparent;
+  font-weight: bold;
+}
+#btnDeleteAccount{
+  display: none;
+  width: 20%;
+  font-weight: bold;
+}
+/* #btnDeleteAccount:hover{
+  color:white
+} */
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 60%; 
+  height: 450px; 
+  justify-content: center; 
+  margin-top: 0px; 
+  border: 1px solid gray;
+  background-color: #fff;
+  border-radius: 40px;
+}
+.container:hover{
+  border: 1px solid rgb(117, 151, 245);
+  background-color: rgb(240, 245, 245);
+}
+.headingLogin{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; 
+  color: rgb(100, 154, 216);
+  font-weight: 600;
+}
+.btn{
+  justify-content: flex-end;
+  float: right;
+  font-size: 12px;
+}
+.btn-success{
+  font-size: 18px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 1200){
+  .container{
+      width: 40%;
+  }
+}
+@media only screen and (max-width: 700){
+  .container{
+      width: 50%;
+  }
+}
+@media only screen and (max-width: 600){
+  .container{
+      width: 60%;
+  }
+}
+@media only screen and (max-width: 500){
+  .container{
+      width: 70%;
+  }
+  .headingLogin{
+      margin-top: 03;
+  }
+}
+@media only screen and (max-width: 400){
+  .container{
+      width: 80%;
+      height: 400px;
+  }
+  .headingLogin{
+      margin-top: 0px;
+  }
+}
+.lnkBacktoHome{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.bi{
+  margin-top: 05px;
+}
